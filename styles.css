@@ -1,0 +1,114 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Green Theme */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Product Section */
+#products {
+    text-align: center;
+    padding: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    color: #4CAF50;
+}
+
+.product-item p {
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e8f5e9;
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact a {
+    color: #4CAF50;
+}
+
+/* Social Links */
+#social {
+    background-color: #f1f8e9;
+    padding: 2rem;
+    text-align: center;
+}
+
+#social a {
+    color: #388E3C;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+/* Newsletter Section */
+#newsletter {
+    background-color: #c8e6c9;
+    padding: 2rem;
+    text-align: center;
+}
+
+#newsletter-form input[type="email"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#newsletter-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+#newsletter-form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #388E3C;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
